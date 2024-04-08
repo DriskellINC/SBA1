@@ -1,13 +1,14 @@
 body {
     padding: 1px;
     margin: auto;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
-    background-color:grey;
+    background-color: grey;
 }
+
 .box {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     height: 50vh;
 }
@@ -17,9 +18,27 @@ body {
     border-radius: 5px;
     background-color: bisque;
     box-shadow: 10px 10px 15px gainsboro, -10px -10px 15px
-
 }
+
 .form-box button {
     background-color: rgb(208, 208, 240);
 
 }
+
+.img {
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; */
+    /* justify-content: center;
+    align-content: center;
+    width: 100%;  */
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+
+}
+.text-center {
+    text-align: center;
+  }
+  
+   
