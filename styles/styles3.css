@@ -22,8 +22,14 @@ body {
 
 .form-box button {
     background-color: rgb(208, 208, 240);
+    transition-duration: 2s;
+}
+.form-box button:hover{ 
+  transform: translateY(100px); 
+
 
 }
+
 
 
 .text-center {
